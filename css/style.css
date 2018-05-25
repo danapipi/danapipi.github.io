@@ -1,0 +1,128 @@
+body {
+  margin-top: 76px;
+  margin-right: 0px;
+}
+.modal-backdrop {
+  z-index: -1;
+}
+
+.bt-menu-control-sticky {
+  z-index: 999999;
+}
+
+.container-custom {
+  padding: 0;
+}
+
+.padd-custom {
+  padding: 0;
+}
+
+.bg-custom {
+  background-color: #5993ff;
+}
+
+.btn-custom1 {
+  background-color: #90d8f0;
+  color: white;
+}
+
+.btn-custom2 {
+  background-color: white;
+  color: #5993ff;
+}
+
+.btn-custom2 a:hover {
+  text-decoration: none;
+}
+
+.custom-color {
+  color: white;
+}
+
+.m-custom {
+  margin-left: 200px !important;
+}
+
+.custom-hover:hover {
+  color: #3b4a63;
+}
+
+.text-section1 {
+  text-align: center;
+  color: #666666;
+  padding-top: 20px;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: #5993ff;
+  
+  }
+.custom-card {
+  text-align: center;
+  margin: 5px auto;
+  color: #666666;
+}
+
+.cardtext-footer {
+  text-align: center;
+  color: #666666;
+}
+
+.carousel-inner {
+  width: 640px;
+  height: 450px;
+  margin: 15px auto;
+}
+
+.card-deck img {
+  width: 280px;
+  height: 160px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.card-text,
+.card-title {
+  text-align: center;
+  color: #666666;
+}
+
+.buy-custom {
+  background-color: #39b898;
+  color: white;
+  width: 110px;
+  text-align: center;
+  margin: 0px auto 15px auto !important;
+}
+
+footer {
+  margin-top: 70px;
+  background-color: #5993ff;
+}
+
+.li-footer {
+  list-style: none;
+}
+
+.text-footer {
+  text-decoration: none;
+  text-align: left;
+  padding-top: 10px;
+  color: white;
+  line-height: 30px;
+}
+
+.img-footer {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.clock {
+  width: 622px;
+}

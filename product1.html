@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootsrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.2/css/mdb.min.css" /> -->
+    <link rel="stylesheet" href="js/flipclock.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product1.css">
+    <title>Dash</title>
+</head>
+
+<body>
+    <div class="container-fluid container-custom fixed-top">
+        <header>
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg bg-custom justify-content-around">
+
+                <a class="navbar-brand ml-3 mr-5 padd-custom" href="index.html">
+                    <img src="logo.jpg" width="60" height="60" alt="">
+                </a>
+                <div class="collapse navbar-collapse row " id="navbarSupportedContent">
+                    <ul class="navbar-nav col-2">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle custom-color custom-hover" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Kategori
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Website Development</a>
+                                <a class="dropdown-item" href="product1.html">Mobile Development</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Database</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline col-8">
+                        <div class="row w-100 justify-content-center">
+
+                            <div class="col-8">
+                                <input class="form-control w-100 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            </div>
+                            <div class="col-2">
+                                <button class="btn btn-custom1 my-2 my-sm-0 mr-10" type="submit">Search</button>
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="col-2">
+                        <!-- Button to Open the Modal -->
+                        <button class="btn btn-custom2 my-2 my-sm-0" type="button" data-toggle="modal" data-target="#signUp">Sign Up</button>
+                        <!-- The Modal -->
+                        <div class="modal fade" id="signUp">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header text-center">
+                                        <h4 class="modal-title ">Sign Up</h4>
+                                        <button type="button " class="close bt-menu-control-sticky" data-dismiss="modal ">x</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body ">
+                                        <div class="modal-body mx-3">
+                                            <div class="md-form mb-5">
+                                                <i class="fa fa-user prefix grey-text"></i>
+                                                <input type="text" id="orangeForm-name" class="form-control validate" autofocus required>
+                                                <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
+                                            </div>
+                                            <div class="md-form mb-5">
+                                                <i class="fa fa-envelope prefix grey-text"></i>
+                                                <input type="email" id="orangeForm-email" class="form-control validate" required>
+                                                <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
+                                            </div>
+
+                                            <div class="md-form mb-4">
+                                                <i class="fa fa-lock prefix grey-text"></i>
+                                                <input type="password" id="orangeForm-pass" class="form-control validate" required>
+                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
+                                            </div>
+
+                                            <div class="md-form mb-4">
+                                                <i class="fa fa-lock prefix grey-text"></i>
+                                                <input type="password" id="orangeForm-pass" class="form-control validate" required>
+                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Verify password</label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer ">
+                                        <button type="button " class="btn buy-custom " data-dismiss="modal ">Sign Up</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Button to Open the Modal -->
+                        <button class=" btn btn-custom2 my-2 my-sm-0 " type="button" data-toggle="modal" data-target="#login">
+                            Login
+                        </button>
+                        <!-- The Modal -->
+                        <div class="modal fade" id="login">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title ">Login</h4>
+                                        <button type="button " class="close bt-menu-control-sticky " data-dismiss="modal ">x</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body mx-3">
+                                        <div class="md-form mb-5">
+                                            <i class="fa fa-envelope prefix grey-text"></i>
+                                            <input type="email" id="defaultForm-email" class="form-control validate" autofocus required>
+                                            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                                        </div>
+
+                                        <div class="md-form mb-4">
+                                            <i class="fa fa-lock prefix grey-text"></i>
+                                            <input type="password" id="defaultForm-pass" class="form-control validate" required>
+                                            <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                                        </div>
+
+                                    </div>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer ">
+                                        <button type="button " class="btn buy-custom " data-dismiss="modal ">Login</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    </div>
+    </header>
+    <section class="row">
+        <div class="col-8">
+            <h4>Android developer for beginner</h4>
+            <div class="row">
+                <div class="co-3">
+                    <img src="android-beginner.jpg" alt="..." class="img-thumbnail img-custom">
+                </div>
+                <div class="col">
+                    <p>Eko Prasetiyo</p>
+                    <br>
+                    <p>Lecturer Android</p>
+                    <br>
+                    <p>Duration 40 hour</p>
+                </div>
+            </div>
+            <div class="row"></div>
+        </div>
+        <div class="col">
+
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="row ">
+            <div class="col text-footer ">
+                <ul>
+                    <li class="li-footer ">
+                        <strong>PT. Digital Learn</strong>
+                    </li>
+                    <li class="li-footer ">Jl. Blabla No.8</li>
+                    <li class="li-footer ">Dmana saja</li>
+                    <li class="li-footer ">digital@learn.com</li>
+                </ul>
+            </div>
+            <div class="col text-footer ">
+                <ul>
+                    <li class="li-footer ">
+                        <strong>Belanja</strong>
+                    </li>
+                    <li class="li-footer ">Belanja di Dash</li>
+                    <li class="li-footer ">Cara berbelanja</li>
+                    <li class="li-footer ">Pembayaran</li>
+                    <li class="li-footer ">Pengembalian dana</li>
+                </ul>
+            </div>
+            <div class="col text-footer ">
+                <ul>
+                    <li class="li-footer ">
+                        <strong>Contact</strong>
+                    </li>
+                    <li class="li-footer ">
+                        <a href=" ">
+                            <img src="fb.svg " alt=" " class="img-footer ">
+                        </a>
+                    </li>
+                    <li class="li-footer ">
+                        <a href=" ">
+                            <img src="twitter.svg " alt=" " class="img-footer ">
+                        </a>
+                    </li>
+                    <li class="li-footer ">
+                        <a href=" ">
+                            <img src="whatsapp.svg " alt=" " class="img-footer ">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.2/js/mdb.min.js"></script>
+    <script src="js/flipclock.min.js "></script>
+    <script type="text/javascript ">
+        var clock = $('.clock').FlipClock(3600 * 24 * 1, {
+            clockFace: 'DailyCounter',
+            countdown: true
+        });
+    </script>
+    <script src="js/my-login.js "></script>
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+</body>
+
+</html>
