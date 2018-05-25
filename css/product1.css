@@ -1,4 +1,41 @@
 .img-custom {
-    width: 100px;
-    height: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+h4 {
+    margin: 0 auto;
+    padding-top: 25px;
+    
+    text-align: center;
+}
+.bio-custom {
+    color: #666666;
+}
+
+.judul-custom {
+  margin-left: 50px;
+  border-bottom: 2px solid #5993ff;
+}
+
+.isi-custom {
+  margin-left: 50px;
+  line-height: 10px !important;
+  color: #666666;
+}
+
+.nav-custom {
+  border-left: 2px solid #5993ff;
+}
+
+.border1 {
+    border-bottom: 2px solid #5993ff;
+}
+
+.nav-custom a {
+    color: #5993ff
+}
+
+.nav-custom a:hover {
+    text-decoration: none;
 }

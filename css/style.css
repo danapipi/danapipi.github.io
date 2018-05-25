@@ -1,6 +1,7 @@
 body {
   margin-top: 76px;
   margin-right: 0px;
+  font-family: 'Roboto Slab', serif;
 }
 .modal-backdrop {
   z-index: -1;
@@ -10,9 +11,9 @@ body {
   z-index: 999999;
 }
 
-.container-custom {
+/* .container-custom {
   padding: 0;
-}
+} */
 
 .padd-custom {
   padding: 0;

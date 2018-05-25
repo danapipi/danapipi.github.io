@@ -11,21 +11,23 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.2/css/mdb.min.css" /> -->
     <link rel="stylesheet" href="js/flipclock.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <!-- <link rel=”icon” type=”image/jpg” href="icon.jpg”> -->
     <title>Dash</title>
 </head>
 
 <body>
-    <div class="container-fluid container-custom fixed-top">
+    <div class="container-fluid container-custom">
         <header>
             <!-- navbar -->
-            <nav class="navbar navbar-expand-lg bg-custom justify-content-around">
+            <nav class="navbar navbar-expand-lg bg-custom justify-content-around fixed-top">
 
                 <a class="navbar-brand ml-3 mr-5 padd-custom" href="index.html">
                     <img src="logo.jpg" width="60" height="60" alt="">
                 </a>
                 <div class="collapse navbar-collapse row " id="navbarSupportedContent">
                     <ul class="navbar-nav col-2">
-                        <li class="nav-item dropdown ">
+                        <li class="nav-item dropdown w-100">
                             <a class="nav-link dropdown-toggle custom-color custom-hover" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
                                 Kategori
@@ -69,25 +71,25 @@
                                         <div class="modal-body mx-3">
                                             <div class="md-form mb-5">
                                                 <i class="fa fa-user prefix grey-text"></i>
+                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Full Name</label>
                                                 <input type="text" id="orangeForm-name" class="form-control validate" autofocus required>
-                                                <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
                                             </div>
                                             <div class="md-form mb-5">
                                                 <i class="fa fa-envelope prefix grey-text"></i>
+                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Email</label>
                                                 <input type="email" id="orangeForm-email" class="form-control validate" required>
-                                                <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
                                             </div>
 
                                             <div class="md-form mb-4">
                                                 <i class="fa fa-lock prefix grey-text"></i>
+                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Password</label>
                                                 <input type="password" id="orangeForm-pass" class="form-control validate" required>
-                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
                                             </div>
 
                                             <div class="md-form mb-4">
                                                 <i class="fa fa-lock prefix grey-text"></i>
-                                                <input type="password" id="orangeForm-pass" class="form-control validate" required>
-                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Verify password</label>
+                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Birthday</label>
+                                                <input type="date" id="orangeForm-pass" class="form-control validate" required>
                                             </div>
 
                                         </div>
@@ -120,14 +122,14 @@
                                     <div class="modal-body mx-3">
                                         <div class="md-form mb-5">
                                             <i class="fa fa-envelope prefix grey-text"></i>
-                                            <input type="email" id="defaultForm-email" class="form-control validate" autofocus required>
                                             <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                                            <input type="email" id="defaultForm-email" class="form-control validate" autofocus required placeholder="Email">
                                         </div>
 
                                         <div class="md-form mb-4">
                                             <i class="fa fa-lock prefix grey-text"></i>
-                                            <input type="password" id="defaultForm-pass" class="form-control validate" required>
                                             <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                                            <input type="password" id="defaultForm-pass" class="form-control validate" required placeholder="Password">
                                         </div>
 
                                     </div>
@@ -149,7 +151,7 @@
 
     <!-- section1 -->
     <section>
-        <h2 class="text-section1 ">PROMO</h2>
+        <h2 class="text-section1 text-dark ">PROMO</h2>
     </section>
 
     <!-- section2 countdown -->
@@ -162,7 +164,7 @@
     <section>
         <div id="carouselExampleControls " class="carousel slide " data-ride="carousel ">
             <div class="carousel-inner ">
-                <div class="carousel-item active ">
+                <div class="carousel-item active">
                     <img class="d-block w-100 " src="1.jpg " alt="First slide ">
                 </div>
                 <div class="carousel-item ">
@@ -194,7 +196,9 @@
                     </h5>
                     <p class="card-text ">This is a basic training development for android .</p>
                 </div>
-                <button class="btn btn-custom3 my-2 my-sm-0 buy-custom " type="submit "><a href="product1.html">BUY HERE</a></button>
+                <button class="btn btn-custom3 my-2 my-sm-0 buy-custom " type="submit ">
+                    <a href="product1.html">BUY HERE</a>
+                </button>
                 <div class="card-footer ">
                     <small class="text-muted cardtext-footer ">Last updated 3 mins ago</small>
                 </div>
@@ -227,7 +231,9 @@
             </div>
         </div>
     </section>
+    </div>
     <!-- footer -->
+    <div class="container-fluid"></div>
     <footer>
         <div class="row ">
             <div class="col text-footer ">
@@ -275,7 +281,6 @@
             </div>
         </div>
     </footer>
-    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
